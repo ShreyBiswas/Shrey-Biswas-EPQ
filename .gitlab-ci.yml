@@ -88,7 +88,7 @@ backup:
   printf "Updated: %s\n\nUpdates: %s" "\$(date)" "\$stats" > README.md
 
   git add backup README.md && git commit -m "Updates: \$stats"
-  git push origin HEAD:master
+  git push origin HEAD:main
   EOL
 
   chmod +x notion_export_gen.py
