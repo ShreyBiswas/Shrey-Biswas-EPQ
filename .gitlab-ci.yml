@@ -19,7 +19,7 @@ backup:
   import urllib.request
 
   TZ = os.getenv("TZ", "Europe/Amsterdam")
-  NOTION_API = os.getenv('NOTION_API', 'https://www.notion.so/api/v3')
+  NOTION_API = os.getenv('NOTION_API', 'https://www.notion.so/api/v3/pages/2a79a390-e4af-4968-9e88-ad6e1ce00b36')
   EXPORT_FILENAME = os.getenv('EXPORT_FILENAME', 'export.zip')
   NOTION_TOKEN_V2 = os.environ['NOTION_TOKEN_V2']
   NOTION_SPACE_ID = os.environ['NOTION_SPACE_ID']
